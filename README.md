@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+---
+# Project Requirements
+Create a page/app that consumes a free open University API (http://universities.hipoabs.com/ some documentation at https://github.com/Hipo/university-domains-list), allow the user to apply filters to the API call by requiring them to select a country from a drop down (only need to put US/Canada/England in this dropdown), and optionally type a full/partial name in a text box to filter the list further.
+
+The results should be displayed in a grid below these selectors. The name of the university should be displayed an d the user can click on the row to expand additional information about the university that is returned from the API (school website, country, country code).
+
+This should be done with HTML/JavaScript and at least one front end framework of your choice (ex: Angular/Vue/React/RxJS)
