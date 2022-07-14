@@ -33,3 +33,14 @@ Create a page/app that consumes a free open University API (http://universities.
 The results should be displayed in a grid below these selectors. The name of the university should be displayed an d the user can click on the row to expand additional information about the university that is returned from the API (school website, country, country code).
 
 This should be done with HTML/JavaScript and at least one front end framework of your choice (ex: Angular/Vue/React/RxJS)
+
+### NOTES
+- Spec calls for use of "England" as one of the country options. However, the endpoint uses "United Kingdom". This app uses "United Kingdom" to match the data and provide the expected functionality.
+- There is a 1.5 second delay after keyup before a search is done. The timer is cancelled on keydown, allowing the user time to get their search criteria typed before a search commences.
+
+### RESOURCES
+- [Google fonts](https://fonts.google.com/)
+- [https://gist.github.com/lucasdavila/4331999#gistcomment-3436121](https://gist.github.com/lucasdavila/4331999#gistcomment-3436121)
+- [ng bootstrap](https://ng-bootstrap.github.io/#/home)
+- [Bootstrap](https://getbootstrap.com/)
+- [favicon.io](https://favicon.io/)
